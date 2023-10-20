@@ -1,0 +1,25 @@
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 2;
+
+  .nav-container {
+    // position: fixed;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    padding: 30px;
+    color: white;
+    a {
+      font-size: 20px;
+    }
+
+    ul {
+      display: flex;
+      gap: 20px;
+    }
+  }
+}

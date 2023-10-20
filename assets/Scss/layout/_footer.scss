@@ -1,0 +1,23 @@
+footer{
+    max-width: 100%;
+    border-top: 1px solid rgba(0, 0, 0, 0.171);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    gap: 20px;
+    .icons{
+        font-size: 45px;
+        cursor: pointer;
+
+       
+    }
+    .fa-brands:hover{
+        color: #0085A1;
+    }
+    p{
+        font-style: italic;
+        color: rgba(0, 0, 0, 0.514);
+    }
+}
